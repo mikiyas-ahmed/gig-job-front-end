@@ -1,0 +1,58 @@
+.firstTopContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-bottom: 1px solid #e0dbdb; 
+    padding-bottom: 1em;
+    .popular-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        font-weight: 400;
+        color: #55311c;
+    }
+    .loadMoreButton{
+        button{
+            padding: 8px 12px;
+            border: 0;
+            color: #fff;
+            border-radius: 4px;
+            background: #8c7569;
+            font-family: "Nunito", sans-serif;
+
+            &:hover {
+                background: #55311c;
+            }
+        }
+        text-align: center;
+    }
+
+    .topJobListContainer{
+        // background-color: #0f0f0f;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 30em 30em;
+        align-content: center;
+        grid-gap: 1em 1em;
+
+        
+        .topSingleJobCard{
+            border: 1px solid #e0dbdb; 
+            padding: 1.5em;
+            height: 6em;
+            justify-content: center;
+            align-items: center;
+            // border-radius: 10px;
+            color: #000;
+            font-size: 1,5em;
+            cursor: pointer;
+            font-weight: 600;
+            // background-color: #21be29;
+            margin-bottom: 1em;
+        }
+        
+    } 
+}

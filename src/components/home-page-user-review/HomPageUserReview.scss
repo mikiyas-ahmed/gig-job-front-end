@@ -1,0 +1,35 @@
+.reviewFirstContainer{
+    padding: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #e0dbdb; 
+   .reviewsContainer{
+    display: flex;
+    justify-content: center;
+    .singleReviewCard{
+        margin-right: 2em;
+        border: 1px solid #e0dbdb; 
+        width: 120vw;
+        padding: 1em;
+
+        .reviewTitle{
+            font-size: 20px;
+            margin: 0;
+            font-weight: 400;
+            color: #55311c;
+        }
+        
+        .reviewDescription{
+            color: rgba(rgb(20, 20, 20), 0.6);
+            font-size: 16px;
+            // text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.7px;
+        }
+
+    }
+   
+
+   }
+   
+    
+} 

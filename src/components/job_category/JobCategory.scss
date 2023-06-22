@@ -1,0 +1,43 @@
+.jobCategoryContainer{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e0dbdb; 
+    margin-bottom: 1em ;
+    padding-bottom: 1em;
+    
+    .title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        font-weight: 400;
+        color: #55311c;
+    }
+    .categoryWrapper{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 8em 8em 1fr;
+        align-content: center;
+        grid-gap: 1em 1em;
+        justify-content: center;
+        
+    
+        .singleCategory{
+            height: 8em;
+            width: 8em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1,5em;
+            cursor: pointer;
+            font-weight: 600;
+        }
+    
+    }
+}
+
+// rgba(25,103,210,.07)

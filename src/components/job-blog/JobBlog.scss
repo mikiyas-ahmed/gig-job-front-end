@@ -1,0 +1,29 @@
+.blogContainer{
+    padding: 2em;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 18em;
+    width: 16em;
+    
+   .blogModel{
+    .blogTitle{
+        font-size: 20px;
+        margin: 0;
+        font-weight: 400;
+        color: #55311c;
+    }
+    
+    .blogCategory{
+        color: rgba(rgb(20, 20, 20), 0.6);
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+    }
+
+   }
+   
+    
+} 

@@ -1,0 +1,28 @@
+.categoryContainer{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.jobFilter{
+    border: 1px solid black;
+}
+
+.categoryWrapper{
+    /* border: 1px solid black; */
+    background-color: #ffffff;
+    width: 50%;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+
+.singleCategory{
+    border-bottom: 1px solid black;
+    margin: 1em;
+    padding-bottom: 1em;
+}
+
+.blogcontainer{
+    border: 1px solid black;
+}

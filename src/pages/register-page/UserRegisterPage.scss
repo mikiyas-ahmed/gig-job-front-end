@@ -1,0 +1,100 @@
+
+.register-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    overflow-y: hidden;
+}
+.register-modal {
+   &-container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 3px 2px 10px #8888882c;
+  }
+
+  &-title {
+    font-size: 26px;
+    margin: 0;
+    font-weight: 400;
+    color: #55311c;
+  }
+
+  &-left {
+    padding: 60px 30px 20px;
+    background: #fff;
+    flex: 2;
+  }
+
+  &-right {
+    flex: 2;
+    font-size: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+}
+
+.register-input-block-container{
+  // background-color: rgb(37, 209, 80);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 0 0.5em 0;
+  // background-color: #55311c;
+  .register-input-container{
+    border: 1px solid #ddd;
+    width: 48%;
+    input {
+      text-align: left;
+      border: 0;
+      padding: 4px 0 4px 0.8em;
+      width: 100%;
+      height: 2.5em;
+      font-size: 14px;
+      font-family: "Nunito", sans-serif;
+      // width: ;
+      &::placeholder {
+        color: #ccc;
+      }
+    }
+  }
+}
+
+.register-user-input-block {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  textarea{
+    border: 0;
+    outline: 0;
+  }
+  input {
+   text-align: left;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 4px 0 0;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    padding: 4px 0 4px 0.8em;
+    // width: 100%;
+    height: 2.5em;
+
+    &::placeholder {
+      color: #ccc;
+    }
+  }
+  
+}
+@media(max-width: 750px) {
+  .modal-container {
+    width: 90%;
+  }
+  .modal-right {
+    display: none;
+  }
+}

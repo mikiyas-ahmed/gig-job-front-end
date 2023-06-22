@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Plumper",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png",
+      "cols": 2
+    },
+    {
+      "id": 2,
+      "title": "Electrician",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    },
+    {
+      "id": 3,
+      "title": "Renovation",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png",
+      "cols": 3
+    },
+    {
+      "id": 4,
+      "title": "painter",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    },
+    {
+      "id": 5,
+      "title": "Photographer",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png",
+      "cols": 2
+    },
+    {
+      "id": 6,
+      "title": "Remote work",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    },
+    {
+      "id": 7,
+      "title": "Projects",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    },
+    {
+      "id": 8,
+      "title": "Transport",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    },
+    {
+      "id": 9,
+      "title": "handy man",
+      "description": "Description First",
+      "image": "https://color-hex.org/colors/8c7569.png"
+    }
+  ]
